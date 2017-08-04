@@ -2,7 +2,6 @@
 using namespace std;
 
 #define for_(i,a,b) for(int i=(a);i<(b);++i)
-#define allof(a) (a).begin(),(a).end()
 template< typename T > using Vec = vector< T >;
 template< typename T > void minUpdate(T& a, T b) { a = min(a, b); }
 
